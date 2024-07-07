@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_FZQW" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00          </Translation>
+      </Text>
+      <Text Id="__SingleUse_9E4A" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">TEM:&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1HTS" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00          </Translation>
+      </Text>
+      <Text Id="__SingleUse_3JAA" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00          </Translation>
+      </Text>
+      <Text Id="__SingleUse_TWDD" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Light:&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_TOCS" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">WET:&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_NHO6" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_N4AI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Cal:&lt;&gt;KJ</Translation>
+      </Text>
+      <Text Id="__SingleUse_33OW" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">height</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q3H3" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Weight</Translation>
+      </Text>
+      <Text Id="__SingleUse_KRF5" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_X5IC" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;&gt;Kg</Translation>
+      </Text>
+      <Text Id="__SingleUse_A43A" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_7A3B" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;&gt;cm</Translation>
+      </Text>
+      <Text Id="__SingleUse_JZ51" Alignment="Left" TypographyId="SUPER_BIG">
+        <Translation Language="GB">00000</Translation>
+      </Text>
+      <Text Id="__SingleUse_6WOK" Alignment="Left" TypographyId="SUPER_BIG">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_P1PR" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Km/s</Translation>
+      </Text>
+      <Text Id="__SingleUse_0LXL" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00       </Translation>
+      </Text>
+      <Text Id="__SingleUse_E7B3" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_UHLD" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Milage:&lt;&gt;Km</Translation>
+      </Text>
+      <Text Id="__SingleUse_ALJQ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Step:&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_9FC0" Alignment="Left" TypographyId="LCD">
+        <Translation Language="GB">:</Translation>
+      </Text>
+      <Text Id="__SingleUse_2J6E" Alignment="Left" TypographyId="LCD">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_VJAV" Alignment="Left" TypographyId="LCD">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_89H0" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Spetial</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y3XZ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Please wait !</Translation>
+      </Text>
+      <Text Id="__SingleUse_CAFU" Alignment="Left" TypographyId="LED_small">
+        <Translation Language="GB">south</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZGA8" Alignment="Left" TypographyId="LED_small">
+        <Translation Language="GB">east</Translation>
+      </Text>
+      <Text Id="__SingleUse_3GFM" Alignment="Left" TypographyId="LED_small">
+        <Translation Language="GB">west</Translation>
+      </Text>
+      <Text Id="__SingleUse_IBP7" Alignment="Left" TypographyId="LED_small">
+        <Translation Language="GB">north</Translation>
+      </Text>
+      <Text Id="__SingleUse_4DKK" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">XXXXXXXX</Translation>
+      </Text>
+      <Text Id="__SingleUse_2LVD" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_KD51" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Admin</Translation>
+      </Text>
+      <Text Id="__SingleUse_PTL7" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_0ZC7" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">日</Translation>
+      </Text>
+      <Text Id="__SingleUse_G93O" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">一</Translation>
+      </Text>
+      <Text Id="__SingleUse_6H18" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">三</Translation>
+      </Text>
+      <Text Id="__SingleUse_DBRD" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">四</Translation>
+      </Text>
+      <Text Id="__SingleUse_4L2Y" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">五</Translation>
+      </Text>
+      <Text Id="__SingleUse_7Q94" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">六</Translation>
+      </Text>
+      <Text Id="__SingleUse_7S8E" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">二</Translation>
+      </Text>
+      <Text Id="__SingleUse_4NFK" Alignment="Left" TypographyId="Chinese">
+        <Translation Language="GB">星期&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3WSE" Alignment="Left" TypographyId="LCD">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_YEWN" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">**************************</Translation>
+      </Text>
+      <Text Id="__SingleUse_05U6" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UHLW" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">**************************</Translation>
+      </Text>
+      <Text Id="__SingleUse_26C1" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">**************************</Translation>
+      </Text>
+      <Text Id="__SingleUse_M6V5" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;&#10;&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_MWMO" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">ARONA</Translation>
+      </Text>
+      <Text Id="__SingleUse_OF3K" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_OKHN" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">SPO2:&lt;&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_N8G1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_4G2U" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Heart Beat:&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_C72L" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">------</Translation>
+      </Text>
+      <Text Id="__SingleUse_GHHD" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;num&gt;Km/h</Translation>
+      </Text>
+      <Text Id="__SingleUse_08S7" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">XXXXXXX</Translation>
+      </Text>
+      <Text Id="__SingleUse_GH2D" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0AOZ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">****</Translation>
+      </Text>
+      <Text Id="__SingleUse_5326" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">MODE:&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_L82I" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB"> 000</Translation>
+      </Text>
+      <Text Id="__SingleUse_QJVX" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">PDOP:&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_L2LC" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">***</Translation>
+      </Text>
+      <Text Id="__SingleUse_SBMK" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">-----.---------</Translation>
+      </Text>
+      <Text Id="__SingleUse_SUJL" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Lon:&#10;&lt;&gt;,&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_OUNT" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">***</Translation>
+      </Text>
+      <Text Id="__SingleUse_I4Q8" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">-----.---------</Translation>
+      </Text>
+      <Text Id="__SingleUse_NDQ3" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Lat:&#10;&lt;&gt;,&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_CKNZ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">-----.----</Translation>
+      </Text>
+      <Text Id="__SingleUse_H3YX" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Alt:&#10;&lt;&gt;m</Translation>
+      </Text>
+      <Text Id="__SingleUse_OTF4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_6CT4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_2LI4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">ENV</Translation>
+      </Text>
+      <Text Id="__SingleUse_44OO" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">COMPASS</Translation>
+      </Text>
+      <Text Id="__SingleUse_KSWC" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">HEALTH</Translation>
+      </Text>
+      <Text Id="__SingleUse_SXA3" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">XXXXXXXX</Translation>
+      </Text>
+      <Text Id="__SingleUse_KCAM" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="./,-_" WildcardCharacterRanges="A-Z,a-z,0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="./,_-%" WildcardCharacterRanges="A-Z,a-z,0-9" />
+    <Typography Id="LCD" Font="LED.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters=":" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="LED_small" Font="LED.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Chinese" Font="STXIHEI.TTF" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="日一二三四五六星期" WildcardCharacterRanges="0-9" />
+    <Typography Id="SUPER_BIG" Font="verdana.ttf" Size="80" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="./,_-%" WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>

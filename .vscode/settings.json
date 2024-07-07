@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "type_traits": "cpp",
+        "gps__api_lib.h": "c",
+        "gps_interface.h": "c",
+        "gps_info.h": "c",
+        "task_pipe.h": "c",
+        "*.tcc": "cpp",
+        "stdint.h": "c",
+        "image_info.h": "c",
+        "ov7725_api_lib.h": "c",
+        "ov7725_reg_lib.h": "c",
+        "ov7725_interface.h": "c",
+        "main.h": "c",
+        "bsp_sht20.h": "c",
+        "stdio.h": "c"
+    }
+}

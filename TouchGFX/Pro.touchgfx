@@ -1,0 +1,2259 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "txt0",
+            "X": 131,
+            "Y": 108,
+            "Width": 156,
+            "Height": 24,
+            "TextId": "__SingleUse_M6V5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_26C1",
+              "UseBuffer": true,
+              "BufferSize": 30
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_UHLW",
+              "UseBuffer": true,
+              "BufferSize": 30
+            },
+            "Clickable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "txt1",
+            "X": 131,
+            "Y": 132,
+            "Width": 156,
+            "Height": 12,
+            "TextId": "__SingleUse_05U6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_YEWN",
+              "UseBuffer": true,
+              "BufferSize": 30
+            },
+            "Clickable": true
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "scrollWheel1",
+            "X": 40,
+            "Width": 320,
+            "Height": 240,
+            "IsCircular": true,
+            "ItemTemplateName": "TEST",
+            "NumberofItems": 10,
+            "Easing": "Elastic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 0.5,
+            "DragAcceleration": 0.5,
+            "OverShootPercentage": 10,
+            "Clickable": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Y": 210,
+            "Width": 30,
+            "Height": 30,
+            "Filename": "ball.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 32,
+            "Y": 210,
+            "Width": 28,
+            "Height": 30,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndY": 36.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 39,
+            "Y": 210,
+            "Width": 32,
+            "Height": 12,
+            "TextId": "__SingleUse_KD51",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "COMPASS",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "COMPASS"
+            }
+          },
+          {
+            "InteractionName": "TIMER",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 1
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "TIMER"
+            }
+          },
+          {
+            "InteractionName": "IMU",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 2
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "IMU"
+            }
+          },
+          {
+            "InteractionName": "LOCAT",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 3
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "LOCAT"
+            }
+          },
+          {
+            "InteractionName": "SYSTEM",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 4
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "SYSTEM"
+            }
+          },
+          {
+            "InteractionName": "CAM",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 5
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "CAM"
+            }
+          },
+          {
+            "InteractionName": "SPORT",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 6
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "SPORT"
+            }
+          },
+          {
+            "InteractionName": "HEALTH",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 7
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "HEALTH"
+            }
+          },
+          {
+            "InteractionName": "ENV",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 8
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "ENV"
+            }
+          },
+          {
+            "InteractionName": "GAME",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 9
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "GAME"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "COMPASS",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 265,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "Width": 101,
+            "Height": 24,
+            "TextId": "__SingleUse_44OO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Gauge",
+            "Name": "compass",
+            "X": 138,
+            "Y": 66,
+            "Width": 50,
+            "Height": 50,
+            "FileNameBackground": "big_ring.png",
+            "RotationCenterX": 25.0,
+            "RotationCenterY": 25.0,
+            "EndAngle": 360.0,
+            "RangeMax": 360.0,
+            "Easing": "Linear",
+            "EasingOption": "In",
+            "FileNameNeedle": "big_pointer.png",
+            "NeedleRotationCenterX": 25.0,
+            "NeedleRotationCenterY": 24.6,
+            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+            "ArcColor": {
+              "Red": 20,
+              "Green": 151,
+              "Blue": 197
+            },
+            "ArcCapStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 142,
+            "Y": 45,
+            "Width": 44,
+            "Height": 21,
+            "TextId": "__SingleUse_IBP7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_3",
+            "X": 142,
+            "Y": 116,
+            "Width": 44,
+            "Height": 21,
+            "TextId": "__SingleUse_CAFU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_2",
+            "X": 188,
+            "Y": 83,
+            "Width": 34,
+            "Height": 21,
+            "TextId": "__SingleUse_ZGA8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 98,
+            "Y": 83,
+            "Width": 40,
+            "Height": 21,
+            "TextId": "__SingleUse_3GFM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "TIMER",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "Alpha": 0,
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 265,
+            "Y": 240,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 130,
+            "Y": -47,
+            "Width": 128,
+            "Height": 47,
+            "TextColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextId": "__SingleUse_3WSE",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "week_txt",
+            "X": 258,
+            "Y": -47,
+            "Width": 62,
+            "Height": 24,
+            "TextId": "__SingleUse_4NFK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_PTL7",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 10,
+            "Y": 133,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "Clock.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "start",
+            "X": 169,
+            "Y": 149,
+            "Width": 12,
+            "Height": 12,
+            "Pressed": "paused.png",
+            "Released": "start_new.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "MIN",
+            "X": 104,
+            "Y": 240,
+            "Width": 38,
+            "Height": 50,
+            "IsCircular": true,
+            "ItemTemplateName": "CLOCK_INNER",
+            "NumberofItems": 60,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "HOUR",
+            "X": 50,
+            "Y": 240,
+            "Width": 38,
+            "Height": 50,
+            "IsCircular": true,
+            "ItemTemplateName": "CLOCK_INNER",
+            "NumberofItems": 24,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "TextArea",
+            "Name": "POINT",
+            "X": 92,
+            "Y": 240,
+            "Width": 7,
+            "Height": 41,
+            "TextId": "__SingleUse_9FC0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "HU",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "HU_"
+            }
+          },
+          {
+            "InteractionName": "HD",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "HD_"
+            }
+          },
+          {
+            "InteractionName": "MU",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "MU_"
+            }
+          },
+          {
+            "InteractionName": "MD",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "MD_"
+            }
+          },
+          {
+            "InteractionName": "SU",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SU_"
+            }
+          },
+          {
+            "InteractionName": "SD",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SD_"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "IMU",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "back",
+            "Width": 320,
+            "Height": 240
+          },
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 265,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1",
+            "X": 120,
+            "Y": 80,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 5.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "BALL",
+            "X": 140,
+            "Y": 100,
+            "Width": 40,
+            "Height": 40,
+            "Filename": "ball.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "LOCAT",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Y": 24,
+            "Width": 320,
+            "Height": 155,
+            "Filename": "duiwai.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 265,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "satellite",
+            "Y": 6,
+            "Width": 13,
+            "Height": 13,
+            "RelativeFilename": "satt.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "satellite_num",
+            "X": 13,
+            "Width": 26,
+            "Height": 24,
+            "TextId": "__SingleUse_6CT4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_OTF4",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Alt",
+            "Y": 72,
+            "Width": 59,
+            "Height": 24,
+            "TextId": "__SingleUse_H3YX",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_CKNZ",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Lat",
+            "X": -1,
+            "Y": 48,
+            "Width": 96,
+            "Height": 24,
+            "TextId": "__SingleUse_NDQ3",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_I4Q8",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_OUNT",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Lon",
+            "Y": 24,
+            "Width": 96,
+            "Height": 24,
+            "TextId": "__SingleUse_SUJL",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_SBMK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_L2LC",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PDOP",
+            "X": 40,
+            "Y": 12,
+            "Width": 55,
+            "Height": 12,
+            "TextId": "__SingleUse_QJVX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_L82I",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "MODE",
+            "X": 40,
+            "Width": 59,
+            "Height": 12,
+            "TextId": "__SingleUse_5326",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_0AOZ",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "scrollWheel1",
+            "X": 23,
+            "Y": 185,
+            "Width": 56,
+            "Height": 55,
+            "IsCircular": true,
+            "ItemTemplateName": "GNSS",
+            "NumberofItems": 6,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0
+          },
+          {
+            "Type": "TextArea",
+            "Name": "KMPH",
+            "X": 211,
+            "Width": 109,
+            "Height": 24,
+            "TextId": "__SingleUse_GHHD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_C72L",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 10,
+            "Y": 205,
+            "Width": 13,
+            "Height": 15,
+            "RelativeFilename": "start.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 106,
+            "Y": 76,
+            "Width": 17,
+            "Height": 16,
+            "RelativeFilename": "BLACK_RING.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "SYSTEM",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 251,
+            "Width": 15,
+            "Height": 240,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndY": 240.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 265,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollList1",
+            "Width": 240,
+            "Height": 240,
+            "Snapping": true,
+            "ItemTemplateName": "SYSTEM",
+            "NumberofItems": 10,
+            "ItemMargin": 5,
+            "Easing": "Back",
+            "EasingOption": "In",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "CAM",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "back",
+            "Width": 320,
+            "Height": 240
+          },
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 275,
+            "Y": 195,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "down",
+            "X": 36,
+            "Y": 72,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_down.png",
+            "Released": "big_down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "up",
+            "X": 36,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_up.png",
+            "Released": "big_up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "right",
+            "X": 72,
+            "Y": 36,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_right.png",
+            "Released": "big_right.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "left",
+            "Y": 36,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "setting",
+            "X": 11,
+            "Y": 195,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "meau_big.png",
+            "Released": "meau_big.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 12,
+            "Y": 143,
+            "Width": 53,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndX": 53.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "spetial",
+            "X": 10,
+            "Y": 126,
+            "Width": 56,
+            "Height": 53,
+            "IsCircular": true,
+            "ItemTemplateName": "GNSS",
+            "NumberofItems": 10,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 19,
+            "Y": 114,
+            "Width": 35,
+            "Height": 12,
+            "TextId": "__SingleUse_89H0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "wait_txt",
+            "X": 97,
+            "Y": 86,
+            "Width": 126,
+            "Height": 24,
+            "TextId": "__SingleUse_Y3XZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "UP",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "up"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "up_button"
+            }
+          },
+          {
+            "InteractionName": "DOWN",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "down"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "dwon_button"
+            }
+          },
+          {
+            "InteractionName": "LEFT",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "left"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "left_button"
+            }
+          },
+          {
+            "InteractionName": "RIGHT",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "right"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "right_button"
+            }
+          },
+          {
+            "InteractionName": "setting",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setting"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "CAM_setting"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "CAM_setting",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 275,
+            "Y": 195,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "SlideMenu",
+            "Name": "slideMenu1",
+            "Width": 214,
+            "Height": 150,
+            "FileNameBackground": "__generated\\alternate_theme_images_containers_small_wide_dark.png",
+            "FileNameButtonPressed": "",
+            "FileNameButtonReleased": "",
+            "State": "Expanded",
+            "ExpandDirection": "South",
+            "Easing": "Back",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "ExpandedStateTimeout": 3000,
+            "Components": []
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "CAM",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "CAM"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "SPORT",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 15,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "setting",
+            "X": 10,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "meau_big.png",
+            "Released": "meau_big.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 275,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "step",
+            "X": 10,
+            "Y": 2,
+            "Width": 130,
+            "Height": 24,
+            "TextId": "__SingleUse_ALJQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_0LXL",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Milage",
+            "X": 10,
+            "Y": 155,
+            "Width": 175,
+            "Height": 24,
+            "TextId": "__SingleUse_UHLD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_E7B3",
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedTXT",
+            "X": 134,
+            "Y": 107,
+            "Width": 52,
+            "Height": 24,
+            "TextId": "__SingleUse_P1PR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speed",
+            "X": 33,
+            "Y": 26,
+            "Width": 255,
+            "Height": 94,
+            "TextId": "__SingleUse_6WOK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_JZ51",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 10,
+            "Y": 131,
+            "Width": 126,
+            "Height": 24,
+            "TextId": "__SingleUse_N4AI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_NHO6",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "SETTING",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setting"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "SPORT_SETTING"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "SPORT_SETTING",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 15,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 275,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Height",
+            "X": 114,
+            "Y": 54,
+            "Width": 135,
+            "Height": 48,
+            "TextId": "__SingleUse_7A3B",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_A43A",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "weight",
+            "X": 115,
+            "Y": 6,
+            "Width": 128,
+            "Height": 48,
+            "TextId": "__SingleUse_X5IC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_KRF5",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "wu",
+            "X": 79,
+            "Y": 12,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "wd",
+            "X": 249,
+            "Y": 12,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_right.png",
+            "Released": "big_right.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "hu",
+            "X": 78,
+            "Y": 61,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "hd",
+            "X": 249,
+            "Y": 61,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_right.png",
+            "Released": "big_right.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 10,
+            "Y": 18,
+            "Width": 69,
+            "Height": 24,
+            "TextId": "__SingleUse_Q3H3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 10,
+            "Y": 67,
+            "Width": 63,
+            "Height": 24,
+            "TextId": "__SingleUse_33OW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "SPORT",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "SPORT"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "HEALTH",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 265,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Title",
+            "Width": 79,
+            "Height": 24,
+            "TextId": "__SingleUse_KSWC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "HEART_BEAT",
+            "Y": 24,
+            "Width": 320,
+            "Height": 58,
+            "DataSeed": -1272509064,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "HEART_TXT",
+            "Y": 82,
+            "Width": 157,
+            "Height": 24,
+            "TextId": "__SingleUse_4G2U",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_N8G1",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "O2_TXT",
+            "Y": 106,
+            "Width": 125,
+            "Height": 24,
+            "TextId": "__SingleUse_OKHN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_OF3K",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line",
+            "Y": 174,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ENV",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 265,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "Width": 42,
+            "Height": 24,
+            "TextId": "__SingleUse_2LI4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "WET",
+            "X": 10,
+            "Y": 155,
+            "Width": 148,
+            "Height": 24,
+            "TextId": "__SingleUse_TOCS",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_1HTS",
+              "UseBuffer": true,
+              "BufferSize": 13
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LIGHT",
+            "X": 10,
+            "Y": 131,
+            "Width": 154,
+            "Height": 24,
+            "TextId": "__SingleUse_TWDD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_3JAA",
+              "UseBuffer": true,
+              "BufferSize": 13
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TEM",
+            "X": 10,
+            "Y": 107,
+            "Width": 147,
+            "Height": 24,
+            "TextId": "__SingleUse_9E4A",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_FZQW",
+              "UseBuffer": true,
+              "BufferSize": 13
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GAME",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "quit",
+            "X": 265,
+            "Y": 189,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "big_quit.png",
+            "Released": "big_quit.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 10,
+            "Y": 179,
+            "Width": 301,
+            "Height": 33,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "ARONA",
+            "X": 110,
+            "Y": 42,
+            "Width": 100,
+            "Height": 112,
+            "CustomContainerDefinitionName": "ARONA",
+            "Draggable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Main",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quit"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "TEST",
+        "Width": 320,
+        "Height": 75,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "img",
+            "X": 12,
+            "Y": 19,
+            "Width": 36,
+            "Height": 36,
+            "RelativeFilename": "cam.png",
+            "Clickable": true
+          },
+          {
+            "Type": "Line",
+            "Name": "line",
+            "X": 60,
+            "Width": 15,
+            "Height": 75,
+            "Color": {
+              "Red": 255,
+              "Green": 170
+            },
+            "EndY": 75.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title",
+            "X": 67,
+            "Width": 112,
+            "Height": 24,
+            "TextId": "__SingleUse_KCAM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_SXA3",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "GNSS",
+        "Width": 56,
+        "Height": 18,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 4,
+            "Y": 3,
+            "Width": 49,
+            "Height": 12,
+            "TextId": "__SingleUse_GH2D",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_08S7",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "ARONA",
+        "Width": 100,
+        "Height": 112,
+        "IsCacheableContainer": true,
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "ARONA",
+            "X": -14,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "joy3.png",
+            "Released": "standby.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 36,
+            "Y": 100,
+            "Width": 36,
+            "Height": 12,
+            "TextId": "__SingleUse_MWMO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Y": 67,
+            "Width": 100,
+            "Height": 33,
+            "Filename": "empty.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Calender",
+        "Width": 250,
+        "Height": 240,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "titel6",
+            "X": 125,
+            "Y": 26,
+            "Width": 20,
+            "Height": 24,
+            "TextId": "__SingleUse_7Q94",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title5",
+            "X": 104,
+            "Y": 26,
+            "Width": 20,
+            "Height": 24,
+            "TextId": "__SingleUse_4L2Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title4",
+            "X": 83,
+            "Y": 26,
+            "Width": 20,
+            "Height": 24,
+            "TextId": "__SingleUse_DBRD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title3",
+            "X": 62,
+            "Y": 26,
+            "Width": 20,
+            "Height": 24,
+            "TextId": "__SingleUse_6H18",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title2",
+            "X": 41,
+            "Y": 26,
+            "Width": 20,
+            "Height": 24,
+            "TextId": "__SingleUse_7S8E",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title1",
+            "X": 20,
+            "Y": 26,
+            "Width": 20,
+            "Height": 24,
+            "TextId": "__SingleUse_G93O",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title7",
+            "Y": 26,
+            "Width": 20,
+            "Height": 24,
+            "TextId": "__SingleUse_0ZC7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "SYSTEM",
+        "Width": 240,
+        "Height": 50,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Y": 2,
+            "Width": 240,
+            "Height": 47,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 8,
+            "Y": 13,
+            "Width": 112,
+            "Height": 24,
+            "TextId": "__SingleUse_2LVD",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_4DKK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "CLOCK_INNER",
+        "Width": 38,
+        "Height": 41,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "txt",
+            "Width": 38,
+            "Height": 41,
+            "TextId": "__SingleUse_VJAV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_2J6E",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 320,
+      "Height": 240
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U575/585",
+    "Toolchain": "MDK-ARM V5.32",
+    "Platform": "m33",
+    "ProjectFile": "../Pro.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.24.0"
+}
